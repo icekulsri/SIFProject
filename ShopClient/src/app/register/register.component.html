@@ -1,0 +1,39 @@
+<div id="formWrapper">
+  <div id="form">
+    <div class="logo">
+      <img id="sanrio" class="img-responsive" src="assets/Images/opportunity.png">
+    </div>
+    <form>
+      <input type="radio" id="male" name="gender" checked [value]="Gender" (input)="Gender = $event.target.value"> Male
+      <input type="radio" id="female" name="gender" [value]="Gender" (input)="Gender = $event.target.value+1"> Female
+    </form>
+    <div class="form-item">
+      <input type="text" name="fname" id="fname" class="form-style" placeholder="Your Firstname" [value]="Firstname"
+        (input)="Firstname = $event.target.value" />
+    </div>
+    <div class="form-item">
+      <input type="text" name="lname" id="lname" class="form-style" placeholder="Your Lastname" [value]="Lastname"
+        (input)="Lastname = $event.target.value" />
+    </div>
+    <div class="form-item">
+      <input type="text" name="username" id="username" class="form-style" placeholder="Your Username" [value]="Username"
+        (input)="Username = $event.target.value" />
+    </div>
+    <div class="form-item">
+      <input type="password" name="password" id="password" class="form-style" placeholder="Your Password" [value]="Password"
+        (input)="Password = $event.target.value" />
+    </div>
+    <div class="form-item">
+      <input type="text" name="typeUser" id="typeUser" class="form-style" placeholder="Your Type" [value]="typeUser"
+        (input)="typeUser = $event.target.value" />
+    </div>
+    <input type="date" id="calendar" [value]="Birthday" (input)="Birthday = $event.target.value">
+    <form>
+      <input type="email" name="email" id="email" class="form-style" placeholder="Your Email" [value]="Email" (input)="Email = $event.target.value" />
+      <div class="form-item">
+        <input type="submit" class="login pull-right" value="Register" style="cursor:pointer;" (click)="register()">
+        <div class="clear-fix"></div>
+      </div>
+    </form>
+  </div>
+</div>

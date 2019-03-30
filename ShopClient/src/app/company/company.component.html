@@ -1,0 +1,104 @@
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <img id="sanrio" class="img-responsive" src="assets/Images/opportunity.png">
+  <div class="row">
+    <button id="logout" type="button" class="btn btn-success btn-responsive" routerLink="/"
+      (click)="logout()">Logout</button>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row" >
+
+    <form id="zone" style="margin-top:6em;margin-left:1%;">
+      <select name="zone">
+        <option disabled>ภาค</option>
+        <option value="north">เหนือ</option>
+        <option value="south">ใต้</option>
+        <option value="east">ตะวันออก</option>
+        <option value="west">ตะวันตก</option>
+      </select>
+    </form>
+    <form id="province" style="margin-top:6em;margin-left:2%;">
+      <select name="province">
+        <option disabled>จังหวัด</option>
+        <option value="north">กรุงเทพมหานคร</option>
+        <option value="south">นครปฐม</option>
+        <option value="east">ปทุมธานี</option>
+      </select>
+    </form>
+    <button type="button" class="btn btn-success btn-responsive" style="margin-left:2%;width:10%;height:auto;margin-top:7.75%;margin-bottom:1%;">SEARCH</button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <table role="table" class="table table-striped" id="myTable" style="margin-top:2%;">
+        <thead role="rowgroup">
+          <tr role="row" style="text-align:center;">
+            <th role="columnheader" id="id">ID</th>
+            <th role="columnheader" id="price">Prefix</th>
+            <th role="columnheader" id="name">Firstname</th>
+            <th role="columnheader" id="Cartoon">Lastname</th>
+            <th role="columnheader" id="type">Ages</th>
+            <th role="columnheader" id="size">Mobile</th>
+            <th role="columnheader" id="color">Province</th>
+            <th role="columnheader" id="stock">Street</th>
+          </tr>
+        </thead>
+        <tbody role="rowgroup" class="tbody">
+          <tr style="text-align:center;">
+            <td role="cell">1</td>
+            <td id="productName0" role="cell">นางสาว</td>
+            <td id="productCartoon0" role="cell">จิรภัทร</td>
+            <td id="productType0" role="cell">วัชรสิงห์</td>
+            <td id="productSize0" role="cell">22</td>
+            <td id="productColor0" role="cell">081-174-7029</td>
+            <td id="productStock0" role="cell">Bangkok</td>
+            <td id="productPrice0" role="cell">Rama IV</td>
+          </tr>
+          <tr style="text-align:center;">
+            <td role="cell">2</td>
+            <td id="productName0" role="cell">นางสาว</td>
+            <td id="productCartoon0" role="cell">จิรภัทร</td>
+            <td id="productType0" role="cell">วัชรสิงห์</td>
+            <td id="productSize0" role="cell">22</td>
+            <td id="productColor0" role="cell">081-174-7029</td>
+            <td id="productStock0" role="cell">Bangkok</td>
+            <td id="productPrice0" role="cell">Rama IV</td>
+          </tr>
+          <tr style="text-align:center;">
+            <td role="cell">3</td>
+            <td id="productName0" role="cell">นางสาว</td>
+            <td id="productCartoon0" role="cell">จิรภัทร</td>
+            <td id="productType0" role="cell">วัชรสิงห์</td>
+            <td id="productSize0" role="cell">22</td>
+            <td id="productColor0" role="cell">081-174-7029</td>
+            <td id="productStock0" role="cell">Bangkok</td>
+            <td id="productPrice0" role="cell">Rama IV</td>
+          </tr>
+          <tr style="text-align:center;">
+            <td role="cell">4</td>
+            <td id="productName0" role="cell">นางสาว</td>
+            <td id="productCartoon0" role="cell">จิรภัทร</td>
+            <td id="productType0" role="cell">วัชรสิงห์</td>
+            <td id="productSize0" role="cell">22</td>
+            <td id="productColor0" role="cell">081-174-7029</td>
+            <td id="productStock0" role="cell">Bangkok</td>
+            <td id="productPrice0" role="cell">Rama IV</td>
+          </tr>
+          <tr style="text-align:center;">
+            <td role="cell">5</td>
+            <td id="productName0" role="cell">นางสาว</td>
+            <td id="productCartoon0" role="cell">จิรภัทร</td>
+            <td id="productType0" role="cell">วัชรสิงห์</td>
+            <td id="productSize0" role="cell">22</td>
+            <td id="productColor0" role="cell">081-174-7029</td>
+            <td id="productStock0" role="cell">Bangkok</td>
+            <td id="productPrice0" role="cell">Rama IV</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+

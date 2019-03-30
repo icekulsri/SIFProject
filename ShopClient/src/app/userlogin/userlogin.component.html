@@ -1,0 +1,19 @@
+<div id="formWrapper">
+  <div id="form">
+    <div class="logo">
+        <img id="sanrio" class="img-responsive" src="assets/Images/opportunity.png">
+    </div>
+    <div class="form-item">
+        <input type="text" name="username" id="username" class="form-style" placeholder="Username" [value]="username" (input)="username = $event.target.value" />
+    </div>
+    <div class="form-item">
+        <input type="password" name="password" id="password" class="form-style" placeholder="Password" [value]="password" (input)="password = $event.target.value" />      
+        <p style="margin-left:2em;"><a routerLink="/registerLogin" ><small>Forgot Password ?</small></a></p>
+    </div>
+    <div class="form-item">
+      <p class="pull-left" style="margin-left:1em;"><a routerLink="/registerLogin">Register</a></p>
+      <input type="submit" class="login pull-right" value="Log In" style="cursor:pointer;" (click)="loginVerify()"> 
+      <div class="clear-fix"></div>
+    </div>
+  </div>
+</div>

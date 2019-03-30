@@ -1,0 +1,35 @@
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="row">
+    <button id="logout" type="button" class="btn btn-success btn-responsive" routerLink="/"
+      (click)="logout()">Logout</button>
+  </div>
+</nav>
+
+<table width=90% id="table" cellpadding="4" cellspacing="4">
+  <tr>
+    <td style="border:2px dotted orange;">
+      <h2 style="text-align:center;margin-top:2em;"><strong>บริษัท KT จำกัด</strong></h2>
+      <div class="col-md-12" style="margin-left:10%;">
+        <form style="margin-top:3em;">
+          <div class="row">
+            <img id="Kt" style="width:8em;height: 8em;margin-right: 3%;" class="img-responsive"
+              src="assets/Images/kt.jpg"><br>
+            หน่วยงานที่ดูแล: มูลนิธิบ้านครูบุญชู<br>
+            โควต้าที่บริษัท KT จำกัดเป็นสปอนเซอร์: 1 อัตรา<br>
+            รายชื่อผู้พิการที่ได้รับโควต้า:
+          </div>
+          <button id="logout" type="button" class="btn btn-primary btn-responsive" routerLink="/detail"
+            style="margin-left:13%;margin-bottom: 5em;width:20%;">Add People With Disabilities</button>
+          <button  type="button" class="btn btn-success btn-responsive" routerLink="/success"
+            style="margin-top: 5%;margin-bottom: 5em;width:79%;">SUBMIT</button>
+        </form>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<footer class="py-3 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+  </div>
+</footer>

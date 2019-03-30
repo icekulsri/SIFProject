@@ -1,0 +1,143 @@
+#Kt {
+    width: 5em;
+    height: 5em;
+}
+#logout {
+    margin-left:75em;
+}
+.dropbtn {
+    background-color:black; 
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: 20;
+    cursor: pointer;
+    margin-right: 10em;
+    width: 15em;
+    height: auto;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    margin-left: 1.5em;
+    margin-top:1.5em;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color:#ff6600;
+  }
+
+
+
+.company3 {
+    background-color:#99cc00;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+  } 
+  .company3 .three{
+    color:black;
+    margin-top: 2.1em;
+    
+}
+.company3 .number3{
+    color:black;
+    margin-left: 60em;
+    margin-top: -5em;
+}
+.company3 .third{
+    color:black;
+      
+  }
+  .company3 .button
+ {
+     margin-left: 33em;
+     color: black;
+     font-weight: bold;
+     width: 30%;
+ }
+ 
+  .company3 {
+    background-color:#99cc00;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+  } 
+  .company3 .three{
+    color:black;
+    margin-top: 2.1em;
+    
+}
+.company3 .number3{
+    color:black;
+    margin-left: 60em;
+    margin-top: -5em;
+}
+.company3 .third{
+    color:black;
+      
+  }
+  .company3 .button
+ {
+     margin-left: 33em;
+     color: black;
+     font-weight: bold;
+     width: 30%;
+ }
+ 
+ .company4 {
+    background-color:#ff6600;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    
+  } 
+.company4 .four{
+    color:black;
+    margin-top: 2.1em;
+    
+}
+.company4 .number4{
+    color:black;
+    margin-left: 60em;
+    margin-top: -5em;
+}
+.company4 .fourth{
+    color:black;
+      
+  }
+  .company4 .button 
+ {
+     margin-left: 33em;
+     color: black;
+     font-weight: bold;
+     width: 30%;
+ }

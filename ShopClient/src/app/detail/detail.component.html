@@ -1,0 +1,58 @@
+<nav class="navbar navbar-dark bg-dark fixed-top">
+
+  <div class="row">
+    <button id="logout" type="button" class="btn btn-success btn-responsive" routerLink="/"
+      (click)="logout()">Logout</button>
+  </div>
+</nav>
+
+<table width=90% id="table" cellpadding="4" cellspacing="4">
+  <tr>
+    <td style="border:2px dotted orange;">
+      <h2 style="text-align:center;margin-top:2em;"><strong>People With Disabilities</strong></h2>
+      <div class="col-md-12" style="margin-left:10%;">
+        <form style="margin-top:4em;">
+          <div class="row" style="margin-bottom:1%;">
+            <input type="radio" style="margin-left:2%;margin-right:1%;" id="male" name="gender" checked [value]="Gender"
+              (input)="Gender = $event.target.value">
+            Mr.
+            <input type="radio" style="margin-left:2%;margin-right:1%;" id="female" name="gender" [value]="Gender"
+              (input)="Gender = $event.target.value+1">
+            Ms.
+            <input type="radio" style="margin-left:2%;margin-right:1%;" id="female" name="gender" [value]="Gender"
+              (input)="Gender = $event.target.value+1">
+            Mrs.<br>
+          </div>
+          First name: <input type="text" name="FirstName" placeholder="Your FirstName"
+            style="margin-left:1%;width: 30%;margin-bottom:1%;margin-right:2%">
+          Last name: <input type="text" name="LastName" placeholder="Your Lastname"
+            style="margin-left:1%;width: 30%;"><br>
+          Ages: <input type="text" name="age" placeholder="Your Age" style="margin-left:1%;width: 7%;margin-right:1%">
+          Type Job: <input type="text" name="age" placeholder="Your Type Job"
+            style="margin-left:1%;width: 17.5%;margin-right:2%">
+          Position: <input type="text" name="LastName" placeholder="Your Position"
+            style="margin-left:2.5%;width: 30%;margin-bottom:1%;"><br>
+          Address: <input type="text" name="LastName" placeholder="Your Address"
+            style="margin-left:1%;width: 72%;margin-bottom:1%;"><br>
+          Department: <input type="text" name="LastName" placeholder="Your Department"
+            style="margin-left:1%;width: 29%;margin-right:2%">
+          Company: <input type="text" name="LastName" placeholder="Your Position"
+            style="margin-left:1.5%;width: 30%;margin-bottom:3%;"><br>
+          <img id="sanrio" class="img-responsive" src="assets/Images/picupload.png"
+            style="margin-right:2%;margin-left:4%">
+          <img id="sanrio" class="img-responsive" src="assets/Images/picupload.png" style="margin-right:2%;">
+          <img id="sanrio" class="img-responsive" src="assets/Images/picupload.png" style="margin-right:2%;">
+          <img id="sanrio" class="img-responsive" src="assets/Images/picupload.png" style="margin-right:2%;">
+          <img id="sanrio" class="img-responsive" src="assets/Images/picupload.png" style="margin-right:2%;"><br>
+          <button type="button" class="btn btn-success btn-responsive" routerLink="/match2" style="margin-top: 5%;margin-bottom: 5em;width:79%;">SUBMIT</button>
+        </form>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<footer class="py-3 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    </div>
+</footer>

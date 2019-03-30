@@ -1,0 +1,21 @@
+#sanrio {
+    width: 9em;
+    height: auto;
+  }
+  #logout {
+    margin-left:75em;
+  }
+  
+  #table{
+    border:2px dotted purple;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+  }
+
+  #table2{
+    border:2px dotted purple;
+    margin-left: 13%;;
+    margin-right: auto;
+  }

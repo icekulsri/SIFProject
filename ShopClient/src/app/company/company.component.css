@@ -1,0 +1,31 @@
+#sanrio {
+    width: 9em;
+    height: auto;
+}
+#logout {
+    margin-right:1em;
+}
+#logo {
+    width: 15em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+#home {
+    background-color: palevioletred;
+    color: white;
+}
+#search {
+    color: palevioletred;
+}
+#sock {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.75em;
+    margin-bottom: 1.5em;
+}
+
